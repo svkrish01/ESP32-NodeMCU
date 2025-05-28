@@ -1,0 +1,23 @@
+/*
+Developer   - Sriram Venkata Krishna
+Date        - 18-05-2025
+*/
+
+//ESP32 NodeMCU Tester
+
+const int LED_Pin = 2;
+const int Time = 1000;
+
+void setup()
+{
+  pinMode(LED_Pin, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(LED_Pin, HIGH);
+  delay(Time);
+
+  digitalWrite(LED_Pin, LOW);
+  delay(Time);
+}
