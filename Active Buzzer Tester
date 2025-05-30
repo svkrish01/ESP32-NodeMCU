@@ -1,0 +1,30 @@
+/*
+Developer   - Sriram Venkata Krishna
+Date        - 18-05-2025
+Board       - ESP32 NodeMCU
+*/
+
+//Active Buzzer Tester
+
+const int Buzzer_Pin = 4;
+const int Time_Delay = 1000;
+
+void setup()
+{
+  pinMode(Buzzer_Pin, OUTPUT);
+}
+
+void loop()
+{
+  digitalWrite(Buzzer_Pin, HIGH);
+  delay(Time_Delay);
+
+  digitalWrite(Buzzer_Pin, LOW);
+  delay(Time_Delay);
+}
+
+/*
+Connections -
+Buzzer Anode    - GPIO Pin 4 (P4)
+Buzzer Cathode  - Ground
+*/
