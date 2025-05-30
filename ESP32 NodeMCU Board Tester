@@ -7,7 +7,7 @@ Board       - ESP32 NodeMCU
 //ESP32 NodeMCU Board Tester
 
 const int LED_Pin = 2;
-const int Time = 1000;
+const int Time_Delay = 1000;
 
 void setup()
 {
@@ -17,8 +17,8 @@ void setup()
 void loop()
 {
   digitalWrite(LED_Pin, HIGH);
-  delay(Time);
+  delay(Time_Delay);
 
   digitalWrite(LED_Pin, LOW);
-  delay(Time);
+  delay(Time_Delay);
 }
