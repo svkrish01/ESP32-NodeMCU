@@ -4,7 +4,7 @@ Date        - 18-05-2025
 Board       - ESP32 NodeMCU
 */
 
-//ESP32 NodeMCU Tester
+//ESP32 NodeMCU Board Tester
 
 const int LED_Pin = 2;
 const int Time = 1000;
