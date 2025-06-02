@@ -7,6 +7,7 @@ Board       - ESP32 NodeMCU
 //Active Buzzer Tester
 
 const int Buzzer_Pin = 4;
+
 const int Time_Delay = 1000;
 
 void setup()
